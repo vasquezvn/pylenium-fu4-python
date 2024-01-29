@@ -1,9 +1,0 @@
-{
-  "custom": {
-    "environment": {
-      "url": "https://qa.mb360.me/login/auth",
-      "username": "vn.test8@test.com",
-      "password": "qweqwe123"
-    }
-  }
-}
