@@ -66,8 +66,8 @@ def test_can_list_tasks():
     list_task_response = list_task(user_id)
     assert list_task_response.status_code == 200
     data = list_task_response.json()
-
     tasks = data["tasks"]
+
     assert len(tasks) == n
 
 
